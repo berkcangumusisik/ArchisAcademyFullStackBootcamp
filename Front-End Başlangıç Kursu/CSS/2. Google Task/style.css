@@ -1,0 +1,65 @@
+/*
+display: block: Bu özellik, bir öğeyi blok seviyesinde görüntüler. Blok seviyesi öğeler, kendilerinden önce ve sonra bir satır boşluğu bırakarak, genellikle belirli bir alanda tam bir satır genişliği kaplarlar. Bu nedenle blok seviyesi öğeler,
+yeni bir satıra geçer ve genellikle diğer öğeleri yan yana yerleştirilmez. Örnek olarak, div öğesi varsayılan olarak blok seviyesindedir.
+
+2. display: inline: Bu özellik, bir öğeyi içerik akışına dahil eden ve kendisinden sonra bir satır boşluğu bırakmayan bir satır içi öğe olarak görüntüler. Satır içi öğeler, içerdikleri içeriğe göre genişlik alırlar ve yan yana yerleştirilebilirler. Metin öğeleri (span, a, em, vb.) genellikle varsayılan olarak satır içi öğelerdir.*/
+*{
+  text-align: center;
+}
+.main{
+  margin-top: 100px;
+}
+
+input{
+  width: 400px;
+}
+.logo{
+  margin-top: 400px;
+  display: block;
+  margin-bottom: 50px;
+  margin:auto;
+}
+
+/*
+margin Nedir?
+CSS'de öğelerin etrafındaki boşluğu kontrol etmek için kullanılan bir özelliktir. Margin, bir öğenin dışındaki alanı temsil eder ve öğeler arasındaki boşluğu ayarlamak için kullanılır.
+
+margin: 10px; : Tüm kenarlara 10 piksel boşluk ekler.
+margin: 10px 20px; : Üst ve alt kenarlara 10 piksel, sol ve sağ kenarlara 20 piksel boşluk ekler.
+margin: 10px 20px 30px; : Üst kenara 10 piksel, sol ve sağ kenarlara 20 piksel, alt kenara 30 piksel boşluk ekler.
+margin: 10px 20px 30px 40px; : Üst kenara 10 piksel, sağ kenara 20 piksel, alt kenara 30 piksel, sol kenara 40 piksel boşluk ekler.
+margin-top: => üstten
+margin-right: => sağdan
+margin-bottom: => alttan
+margin-left: => soldan
+
+*/
+
+
+/**
+Class
+- Bir veya daha fazla HTML öğesine aynı özellikleri uygulamak için kullanılır.
+- Class isimleri büyük-küçük harfe duyarlıdır.
+- Class isimleri boşluk içeremez.
+- Class isimleri sayı ile başlayamaz.
+- Class isimleri bir harf veya alt çizgi (_) ile başlamalıdır.
+- . ile CSS'Ten ulaşabiliriz.
+- <div class="className"></div>
+- <div class="className1 className2"></div>
+
+CSS ile Class'a Erişme
+- .className{}
+
+ID
+- Bir HTML öğesine özgü bir tanımlayıcıdır.
+- ID isimleri büyük-küçük harfe duyarlıdır.
+
+CSS ile id'ye erişme
+- #idName{}
+
+
+/
+
+/*
+Bir öğeyi yatayda merkezlemek için margin: auto; kullanabiliriz. Bu özellik, öğenin sol ve sağ kenarlarına eşit miktarda boşluk ekler ve böylece öğeyi yatayda merkezler. Bu özellik, öğenin genişliğini belirttiğimizde çalışır. Eğer öğenin genişliğini belirtmezsek, öğe genişliği, içeriğine göre otomatik olarak ayarlanır ve bu durumda margin: auto; özelliği çalışmaz.
+*/

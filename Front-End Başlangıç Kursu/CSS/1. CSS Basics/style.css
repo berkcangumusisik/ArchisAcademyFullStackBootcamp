@@ -1,0 +1,13 @@
+body {
+  background-color: red; /*background- color :arka plan rengi */
+  color: white; /*color: yazı rengi */
+  font-size: 25px; /*font size : yazı boyutu*/
+  font-family: Arial, sans-serif; /*font-family: yazı tipi */
+  text-align: center;
+  /*text-align: yazıların hizalaması
+  center : ortalar.
+  left : sola yaslar.
+  right : sağa yaslar.
+  justify : yazıları düzgün bir şekilde hizalar
+  */
+}
