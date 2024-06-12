@@ -26,3 +26,7 @@ Bu repo Archi's full stack eğitim sürecinde yaptığım projeleri ve uygulamal
 - Display Özelliği
 - Margin
 - Class ve ID Kullanımı
+- Padding
+- Border
+- Twitter Follow Butonu
+- Input elemanı stilize etme

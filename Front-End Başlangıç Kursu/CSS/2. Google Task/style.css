@@ -12,14 +12,50 @@ yeni bir satıra geçer ve genellikle diğer öğeleri yan yana yerleştirilmez.
 
 input{
   width: 400px;
+
 }
 .logo{
   margin-top: 400px;
   display: block;
   margin-bottom: 50px;
   margin:auto;
+  padding:10px;
 }
 
+.button-group{
+    padding: 20px;
+}
+
+.paragraf{
+  border: 5px dotted green;
+  padding:20px;
+}
+
+.search-input{
+  width: 400px;
+  display: block;
+  margin:auto;
+  padding: 10px;
+  border:1px solid #dfe1e5;
+  border-radius: 30px;
+  line-height: 24px;
+}
+
+.search-btn{
+
+  border:none;
+  font-size:14px;
+  padding: 8px 16px;
+  border-radius: 16px;
+  background-color: #dfe1e5;
+  cursor: pointer;
+}
+
+.button-group{
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+}
 /*
 margin Nedir?
 CSS'de öğelerin etrafındaki boşluğu kontrol etmek için kullanılan bir özelliktir. Margin, bir öğenin dışındaki alanı temsil eder ve öğeler arasındaki boşluğu ayarlamak için kullanılır.
@@ -62,4 +98,44 @@ CSS ile id'ye erişme
 
 /*
 Bir öğeyi yatayda merkezlemek için margin: auto; kullanabiliriz. Bu özellik, öğenin sol ve sağ kenarlarına eşit miktarda boşluk ekler ve böylece öğeyi yatayda merkezler. Bu özellik, öğenin genişliğini belirttiğimizde çalışır. Eğer öğenin genişliğini belirtmezsek, öğe genişliği, içeriğine göre otomatik olarak ayarlanır ve bu durumda margin: auto; özelliği çalışmaz.
+
+Padding: Bir öğenin içeriği ile kenarları arasındaki mesafeyi kontrol etmek için kullanılır.
+Padding,
+dört tarafta (üst, sağ, alt, sol) farklı değerler alabilir veya tek bir değerle tüm kenarlar için aynı değeri alabilir. Öğenin içeriği ile kenarları arasında bırakılan boşluğun büyüklüğünü kontrol etmek için piksel (px),
+yüzde (%) veya diğer uzunluk birimleri kullanılabilir.
+
+Border nedir?
+- Bir öğenin kenarlarını çizmek için kullanılır. Border, üç özelliğe sahiptir: border-width, border-style ve border-color. Bu üç özellik, bir arada kullanılarak bir öğenin kenarlarını çizmek için kullanılır.
+
+Border stil değeri,
+çeşitli seçenekler arasından seçilebilir. Bazı yaygın border stilleri şunlardır: solid: Düz bir çizgi şeklinde bir border oluşturur. dashed: Kesikli çizgi şeklinde bir border oluşturur. dotted: Nokta şeklinde bir border oluşturur. double: Çift çizgi şeklinde bir border oluşturur. groove: Girintili bir görünümde bir border oluşturur.
+*/
+
+
+/*
+CSS Flexbox (esnek kutu modeli),
+HTML öğelerinin daha esnek bir düzenlemesini ve hizalanmasını sağlayan bir CSS modülüdür. Flexbox,
+bir düzen içindeki öğeleri düzenlemek,
+hizalamak ve boşlukları yönetmek için kullanılır. Flexbox,
+bir konteyner öğesine (genellikle bir div) uygulandığında,
+içerdiği öğeleri esnek bir şekilde düzenler. İçerideki öğeleri,
+dikey veya yatay bir düzlemde hizalayabilir ve öğeler arasındaki boşlukları otomatik olarak dağıtabilir. Flexbox,
+iki ana bileşenden oluşur: konteyner (container) ve öğeler (items). Konteyner,
+içerdiği öğeleri düzenlemek için bir düzen bağlamı sağlar. Öğeler ise düzenlenen öğeleri temsil eder. flex-direction: Konteynerin içerisindeki öğelerin hizalanma düzlemi belirlenir. row,
+row-reverse,
+column,
+column-reverse gibi değerler alabilir. justify-content: Öğeleri yatay düzlemde hizalama yöntemini belirler. flex-start,
+flex-end,
+center,
+space-between,
+space-around gibi değerlerle kullanılır. align-items: Öğeleri dikey düzlemde hizalama yöntemini belirler. flex-start,
+flex-end,
+center,
+baseline,
+stretch gibi değerlerle kullanılır. flex: Öğelere esneklik ve büyüme yetenekleri kazandırır. Öğelerin genişliklerini,
+sıkıştırılmasını veya genişlemesini kontrol etmek için kullanılır. flex-wrap: Öğelerin bir satıra veya sütuna sığmaması durumunda nasıl davranacağını belirler. nowrap,
+wrap,
+wrap-reverse gibi değerler alabilir. Flexbox,
+özellikle düzen gerektiren ve öğelerin dinamik olarak yerleştirilmesi veya hizalanması gereken tasarımlarda kullanışlıdır. Örneğin,
+yan yana sıralanması gereken bir dizi buton veya bir navigasyon menüsü gibi durumlarda kullanılabilir.
 */
