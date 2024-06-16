@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Passenger Counter App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Giren İnsan Sayısı :</h1>
+  <h2 class="" counter id="counter-el">0</h2>
+  <button onclick="increment()" id="increment-btn">Arttır</button>
+  <button onclick="save()" id="save-btn">Kaydet</button>
+  <p id="save-el">Önceki Girişler</p>
+  <script src="index.js">
+  </script>
+</body>
+
+</html>
+
+<!--
+<script></script> ile Javascript kodlarımızı yazabiliriz.
+document.getElementById("counter-el") ile HTML dosyamızdaki id'si counter-el olan elementi seçtik.
+document.getElementByClassName: Bu özelllik ile class seçebiliyoruz.
+document.getElementByTagName: Tag adını seçer.
+document.querySelector() ile hem class hem de id'ye göre seçme işlemi yapabiliriz.
+-->
